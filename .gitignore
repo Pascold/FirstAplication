@@ -1,15 +1,27 @@
+# Ignorowanie plików konfiguracyjnych Android Studio
 *.iml
-.gradle/
-/local.properties
-/.idea/caches
-/.idea/libraries
+/.idea/
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Ignorowanie plików systemowych
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Ignorowanie plików Gradle
+.gradle/
+/local.properties
+
+# Ignorowanie katalogów build
+/build/
+.cxx/
+.externalNativeBuild/
+
+# Ignorowanie przechwyconych plików (np. z emulatora)
+captures/
+
+# Opcjonalnie: ignorowanie binarnych plików systemowych
+*.log
