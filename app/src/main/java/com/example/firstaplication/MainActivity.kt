@@ -86,7 +86,7 @@ fun GreetingCard(version: String, codeName: String) {
     var visible by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
-        delay(300) // Delikatne opóźnienie dla animacji
+        delay(300)
         visible = true
     }
 
