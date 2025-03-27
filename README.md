@@ -1,1 +1,1 @@
-# My first Android app project. Nothing here.
+# My first Android app project. Nothing special here.
